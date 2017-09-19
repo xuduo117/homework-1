@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.29)  18 SEP 2017 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.29)  19 SEP 2017 17:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -393,34 +393,34 @@ Overfull \hbox (15.18442pt too wide) in paragraph at lines 230--231
 <Q4_gaia_radec.pdf, id=555, pagebox=cropbox, 421.87737pt x 327.53253pt>
 File: Q4_gaia_radec.pdf Graphic file (type pdf)
 <use Q4_gaia_radec.pdf>
-Package pdftex.def Info: Q4_gaia_radec.pdf  used on input line 251. on input li
-ne 251.
+Package pdftex.def Info: Q4_gaia_radec.pdf  used on input line 252. on input li
+ne 252.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.70409pt on input lin
-e 251.
+e 252.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 <Q4_1_ra.pdf, id=556, pagebox=cropbox, 426.23741pt x 327.20317pt>
 File: Q4_1_ra.pdf Graphic file (type pdf)
 <use Q4_1_ra.pdf>
-Package pdftex.def Info: Q4_1_ra.pdf  used on input line 261. on input line 261
+Package pdftex.def Info: Q4_1_ra.pdf  used on input line 262. on input line 262
 .
 Package pdftex.def Info: Requested size: 230.18251pt x 176.69705pt on input lin
-e 261.
+e 262.
 <Q4_1_dec.pdf, id=557, pagebox=cropbox, 434.64381pt x 327.20317pt>
 File: Q4_1_dec.pdf Graphic file (type pdf)
 <use Q4_1_dec.pdf>
-Package pdftex.def Info: Q4_1_dec.pdf  used on input line 262. on input line 26
-2.
+Package pdftex.def Info: Q4_1_dec.pdf  used on input line 263. on input line 26
+3.
 Package pdftex.def Info: Requested size: 230.18251pt x 173.28204pt on input lin
-e 262.
+e 263.
 <Q4_1_radec.pdf, id=558, pagebox=cropbox, 434.64381pt x 327.53253pt>
 File: Q4_1_radec.pdf Graphic file (type pdf)
 <use Q4_1_radec.pdf>
-Package pdftex.def Info: Q4_1_radec.pdf  used on input line 263. on input line 
-263.
+Package pdftex.def Info: Q4_1_radec.pdf  used on input line 264. on input line 
+264.
 Package pdftex.def Info: Requested size: 230.18251pt x 173.45647pt on input lin
-e 263.
+e 264.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -430,24 +430,24 @@ Missing character: There is no ™ in font cmr12!
 <Q4_1_ra_err.pdf, id=559, pagebox=cropbox, 421.87737pt x 327.20317pt>
 File: Q4_1_ra_err.pdf Graphic file (type pdf)
 <use Q4_1_ra_err.pdf>
-Package pdftex.def Info: Q4_1_ra_err.pdf  used on input line 272. on input line
- 272.
+Package pdftex.def Info: Q4_1_ra_err.pdf  used on input line 273. on input line
+ 273.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.52438pt on input lin
-e 272.
+e 273.
 <Q4_1_dec_err.pdf, id=560, pagebox=cropbox, 421.87737pt x 327.20317pt>
 File: Q4_1_dec_err.pdf Graphic file (type pdf)
 <use Q4_1_dec_err.pdf>
-Package pdftex.def Info: Q4_1_dec_err.pdf  used on input line 273. on input lin
-e 273.
+Package pdftex.def Info: Q4_1_dec_err.pdf  used on input line 274. on input lin
+e 274.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.52438pt on input lin
-e 273.
+e 274.
 <Q4_1_radec_err.pdf, id=561, pagebox=cropbox, 421.87737pt x 327.53253pt>
 File: Q4_1_radec_err.pdf Graphic file (type pdf)
 <use Q4_1_radec_err.pdf>
-Package pdftex.def Info: Q4_1_radec_err.pdf  used on input line 274. on input l
-ine 274.
+Package pdftex.def Info: Q4_1_radec_err.pdf  used on input line 275. on input l
+ine 275.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.70409pt on input lin
-e 274.
+e 275.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -476,24 +476,24 @@ nclusion: multiple pdfs with page group included in a single page
 <Q4_2_ra_err.pdf, id=826, pagebox=cropbox, 418.67792pt x 327.20317pt>
 File: Q4_2_ra_err.pdf Graphic file (type pdf)
 <use Q4_2_ra_err.pdf>
-Package pdftex.def Info: Q4_2_ra_err.pdf  used on input line 284. on input line
- 284.
+Package pdftex.def Info: Q4_2_ra_err.pdf  used on input line 285. on input line
+ 285.
 Package pdftex.def Info: Requested size: 230.18251pt x 179.8924pt on input line
- 284.
+ 285.
 <Q4_2_dec_err.pdf, id=827, pagebox=cropbox, 418.67792pt x 327.20317pt>
 File: Q4_2_dec_err.pdf Graphic file (type pdf)
 <use Q4_2_dec_err.pdf>
-Package pdftex.def Info: Q4_2_dec_err.pdf  used on input line 285. on input lin
-e 285.
+Package pdftex.def Info: Q4_2_dec_err.pdf  used on input line 286. on input lin
+e 286.
 Package pdftex.def Info: Requested size: 230.18251pt x 179.8924pt on input line
- 285.
+ 286.
 <Q4_2_radec_err.pdf, id=828, pagebox=cropbox, 418.67792pt x 327.53253pt>
 File: Q4_2_radec_err.pdf Graphic file (type pdf)
 <use Q4_2_radec_err.pdf>
-Package pdftex.def Info: Q4_2_radec_err.pdf  used on input line 286. on input l
-ine 286.
+Package pdftex.def Info: Q4_2_radec_err.pdf  used on input line 287. on input l
+ine 287.
 Package pdftex.def Info: Requested size: 230.18251pt x 180.07347pt on input lin
-e 286.
+e 287.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -503,24 +503,24 @@ Missing character: There is no ™ in font cmr12!
 <Q4_3_ra_err.pdf, id=829, pagebox=cropbox, 416.65474pt x 327.20317pt>
 File: Q4_3_ra_err.pdf Graphic file (type pdf)
 <use Q4_3_ra_err.pdf>
-Package pdftex.def Info: Q4_3_ra_err.pdf  used on input line 297. on input line
- 297.
+Package pdftex.def Info: Q4_3_ra_err.pdf  used on input line 298. on input line
+ 298.
 Package pdftex.def Info: Requested size: 230.18251pt x 180.76611pt on input lin
-e 297.
+e 298.
 <Q4_3_dec_err.pdf, id=830, pagebox=cropbox, 410.27151pt x 327.20317pt>
 File: Q4_3_dec_err.pdf Graphic file (type pdf)
 <use Q4_3_dec_err.pdf>
-Package pdftex.def Info: Q4_3_dec_err.pdf  used on input line 298. on input lin
-e 298.
+Package pdftex.def Info: Q4_3_dec_err.pdf  used on input line 299. on input lin
+e 299.
 Package pdftex.def Info: Requested size: 230.18251pt x 183.57701pt on input lin
-e 298.
+e 299.
 <Q4_3_radec_err.pdf, id=831, pagebox=cropbox, 412.64014pt x 327.53253pt>
 File: Q4_3_radec_err.pdf Graphic file (type pdf)
 <use Q4_3_radec_err.pdf>
-Package pdftex.def Info: Q4_3_radec_err.pdf  used on input line 299. on input l
-ine 299.
+Package pdftex.def Info: Q4_3_radec_err.pdf  used on input line 300. on input l
+ine 300.
 Package pdftex.def Info: Requested size: 230.18251pt x 182.71228pt on input lin
-e 299.
+e 300.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -559,7 +559,7 @@ onts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb>
-Output written on HW1_xuduo.pdf (15 pages, 435581 bytes).
+Output written on HW1_xuduo.pdf (15 pages, 436060 bytes).
 PDF statistics:
  1082 PDF objects out of 1200 (max. 8388607)
  271 compressed objects within 3 object streams
