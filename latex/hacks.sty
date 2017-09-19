@@ -1,0 +1,53 @@
+%%% make tighten even tighter
+\def\@tightleading{1.05}
+
+\@rightskip=\z@\rightskip\@rightskip
+\pretolerance=100
+\def\section{\if@firstsection
+   \@firstsectionfalse\fi
+   \setcounter{figure}{0}
+   \setcounter{table}{0}
+   \setcounter{equation}{0}
+   \@startsection {section}{1}{\z@}%
+   {-3.0ex \@plus -0.5ex}{0.1ex \@minus 0.5ex}{\normalsize\bf}}
+\def\subsection{\@startsection{subsection}{2}{\z@}%
+   {-1.0ex \@plus -0.5ex}{-1.0em \@plus -0.5em}{\normalsize\bf}}
+\def\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+   {-1.0ex \@plus -0.5ex}{-1.0em \@plus -0.5em}{\normalsize\bf}}
+\def\theequation{\hbox{\normalsize\arabic{section}-\arabic{equation}}}
+
+%%% remove the "." trailing the section numbers
+\def\thesection{\@arabic{\c@section}}
+\def\thesubsection{\thesection.\@arabic{\c@subsection}}
+\def\thesubsubsection{\thesubsection.\@arabic{\c@subsubsection}}
+\def\theparagraph{\thesubsubsection.\@arabic{\c@paragraph}:}
+
+%%% and fix it for the appendix, too
+\def\appendix{\par
+  \setcounter{section}{0}
+  \setcounter{subsection}{0}
+  \setcounter{equation}{0}
+  \def\thesection{\Alph{section}}
+  \def\theequation{\hbox{\normalsize\Alph{section}-\arabic{equation}}}}
+
+\def\endthebibliography{\endlist}
+
+%%% try prettying-up the figure and table numbers...
+\def\thefigure{\thesection.\@arabic\c@figure}
+\def\thetable{\thesection.\@arabic\c@table}
+\def\fnum@figure{{\rm Fig.\space\thefigure:}}
+
+%%% get rid of \clearpage from \thebibliography definition...
+\def\references{\subsection*{REFERENCES}
+    \bgroup\parindent=\z@\parskip=\itemsep
+    \def\refpar{\par\hangindent=3em\hangafter=1}}
+\def\thebibliography{\subsection*{REFERENCES}
+    \list{\null}{\leftmargin 3em\labelwidth\z@\labelsep\z@\itemindent -3em
+    \usecounter{enumi}}
+    \def\refpar{\relax}
+    \def\newblock{\hskip .11em plus .33em minus .07em}
+    \sloppy\clubpenalty4000\widowpenalty4000
+    \sfcode`\.=1000\relax}
+
+%%% remove the colophon from the bottom of the references definition
+\def\endreferences{\refpar\egroup}

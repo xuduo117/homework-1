@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.29)  18 SEP 2017 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.29)  18 SEP 2017 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,22 +234,22 @@ e
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `bp') on input line 91.
+               Default added (so using `bp') on input line 92.
 
 <Q1_Separation.pdf, id=15, pagebox=cropbox, 421.28503pt x 327.20317pt>
 File: Q1_Separation.pdf Graphic file (type pdf)
 <use Q1_Separation.pdf>
-Package pdftex.def Info: Q1_Separation.pdf  used on input line 113. on input li
-ne 113.
+Package pdftex.def Info: Q1_Separation.pdf  used on input line 114. on input li
+ne 114.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.77902pt on input lin
-e 113.
+e 114.
 <Q1_position_angle.pdf, id=16, pagebox=cropbox, 424.46881pt x 327.20317pt>
 File: Q1_position_angle.pdf Graphic file (type pdf)
 <use Q1_position_angle.pdf>
-Package pdftex.def Info: Q1_position_angle.pdf  used on input line 114. on inpu
-t line 114.
+Package pdftex.def Info: Q1_position_angle.pdf  used on input line 115. on inpu
+t line 115.
 Package pdftex.def Info: Requested size: 230.18251pt x 177.44096pt on input lin
-e 114.
+e 115.
 [2] [3 <./Q1_Separation.pdf> <./Q1_position_angle.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_position_angle.pdf): PD
@@ -258,59 +258,59 @@ F inclusion: multiple pdfs with page group included in a single page
 <Q1_Separation_m1.pdf, id=88, pagebox=cropbox, 440.43471pt x 327.20317pt>
 File: Q1_Separation_m1.pdf Graphic file (type pdf)
 <use Q1_Separation_m1.pdf>
-Package pdftex.def Info: Q1_Separation_m1.pdf  used on input line 123. on input
- line 123.
+Package pdftex.def Info: Q1_Separation_m1.pdf  used on input line 124. on input
+ line 124.
 Package pdftex.def Info: Requested size: 230.18251pt x 171.00537pt on input lin
-e 123.
+e 124.
 <Q1_Separation_m2.pdf, id=89, pagebox=cropbox, 421.28503pt x 327.20317pt>
 File: Q1_Separation_m2.pdf Graphic file (type pdf)
 <use Q1_Separation_m2.pdf>
-Package pdftex.def Info: Q1_Separation_m2.pdf  used on input line 124. on input
- line 124.
+Package pdftex.def Info: Q1_Separation_m2.pdf  used on input line 125. on input
+ line 125.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.77902pt on input lin
-e 124.
+e 125.
 <Q1_position_angle_m1.pdf, id=90, pagebox=cropbox, 424.46881pt x 327.20317pt>
 File: Q1_position_angle_m1.pdf Graphic file (type pdf)
 <use Q1_position_angle_m1.pdf>
-Package pdftex.def Info: Q1_position_angle_m1.pdf  used on input line 125. on i
-nput line 125.
-Package pdftex.def Info: Requested size: 230.18251pt x 177.44096pt on input lin
-e 125.
-<Q1_position_angle_m2.pdf, id=91, pagebox=cropbox, 424.46881pt x 327.20317pt>
-File: Q1_position_angle_m2.pdf Graphic file (type pdf)
-<use Q1_position_angle_m2.pdf>
-Package pdftex.def Info: Q1_position_angle_m2.pdf  used on input line 126. on i
+Package pdftex.def Info: Q1_position_angle_m1.pdf  used on input line 126. on i
 nput line 126.
 Package pdftex.def Info: Requested size: 230.18251pt x 177.44096pt on input lin
 e 126.
+<Q1_position_angle_m2.pdf, id=91, pagebox=cropbox, 424.46881pt x 327.20317pt>
+File: Q1_position_angle_m2.pdf Graphic file (type pdf)
+<use Q1_position_angle_m2.pdf>
+Package pdftex.def Info: Q1_position_angle_m2.pdf  used on input line 127. on i
+nput line 127.
+Package pdftex.def Info: Requested size: 230.18251pt x 177.44096pt on input lin
+e 127.
 <Q1_rv_star_com.pdf, id=92, pagebox=cropbox, 448.84111pt x 327.20317pt>
 File: Q1_rv_star_com.pdf Graphic file (type pdf)
 <use Q1_rv_star_com.pdf>
-Package pdftex.def Info: Q1_rv_star_com.pdf  used on input line 137. on input l
-ine 137.
+Package pdftex.def Info: Q1_rv_star_com.pdf  used on input line 138. on input l
+ine 138.
 Package pdftex.def Info: Requested size: 230.18251pt x 167.80504pt on input lin
-e 137.
+e 138.
 <Q1_rv_jupiter_com.pdf, id=93, pagebox=cropbox, 429.69144pt x 327.20317pt>
 File: Q1_rv_jupiter_com.pdf Graphic file (type pdf)
 <use Q1_rv_jupiter_com.pdf>
-Package pdftex.def Info: Q1_rv_jupiter_com.pdf  used on input line 138. on inpu
-t line 138.
+Package pdftex.def Info: Q1_rv_jupiter_com.pdf  used on input line 139. on inpu
+t line 139.
 Package pdftex.def Info: Requested size: 230.18251pt x 175.27913pt on input lin
-e 138.
+e 139.
 <Q1_angular_momentum.pdf, id=94, pagebox=cropbox, 427.66826pt x 327.20317pt>
 File: Q1_angular_momentum.pdf Graphic file (type pdf)
 <use Q1_angular_momentum.pdf>
-Package pdftex.def Info: Q1_angular_momentum.pdf  used on input line 147. on in
-put line 147.
+Package pdftex.def Info: Q1_angular_momentum.pdf  used on input line 148. on in
+put line 148.
 Package pdftex.def Info: Requested size: 230.18251pt x 176.11292pt on input lin
-e 147.
+e 148.
 <Q1_energy.pdf, id=95, pagebox=cropbox, 429.69144pt x 327.20317pt>
 File: Q1_energy.pdf Graphic file (type pdf)
 <use Q1_energy.pdf>
-Package pdftex.def Info: Q1_energy.pdf  used on input line 148. on input line 1
-48.
+Package pdftex.def Info: Q1_energy.pdf  used on input line 149. on input line 1
+49.
 Package pdftex.def Info: Requested size: 230.18251pt x 175.27913pt on input lin
-e 148.
+e 149.
  [4 <./Q1_Separation_m1.pdf> <./Q1_Separation_m2.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_Separation_m2.pdf): PDF
@@ -338,41 +338,41 @@ ion: multiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `bp') on input line 169.
+               Default added (so using `bp') on input line 170.
 
 <Q2_rv_star.pdf, id=384, pagebox=cropbox, 421.54802pt x 327.20317pt>
 File: Q2_rv_star.pdf Graphic file (type pdf)
 <use Q2_rv_star.pdf>
-Package pdftex.def Info: Q2_rv_star.pdf  used on input line 188. on input line 
-188.
+Package pdftex.def Info: Q2_rv_star.pdf  used on input line 189. on input line 
+189.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.66418pt on input lin
-e 188.
+e 189.
 [6
 
 ] [7 <./Q2_rv_star.pdf>]
 <Q3_separation.pdf, id=422, pagebox=cropbox, 417.65848pt x 327.20317pt>
 File: Q3_separation.pdf Graphic file (type pdf)
 <use Q3_separation.pdf>
-Package pdftex.def Info: Q3_separation.pdf  used on input line 210. on input li
-ne 210.
+Package pdftex.def Info: Q3_separation.pdf  used on input line 211. on input li
+ne 211.
 Package pdftex.def Info: Requested size: 230.18251pt x 180.32675pt on input lin
-e 210.
+e 211.
 <Q3_separation_zoomin1.pdf, id=423, pagebox=cropbox, 427.24117pt x 327.20317pt>
 
 File: Q3_separation_zoomin1.pdf Graphic file (type pdf)
 <use Q3_separation_zoomin1.pdf>
-Package pdftex.def Info: Q3_separation_zoomin1.pdf  used on input line 219. on 
-input line 219.
+Package pdftex.def Info: Q3_separation_zoomin1.pdf  used on input line 220. on 
+input line 220.
 Package pdftex.def Info: Requested size: 230.18251pt x 176.28766pt on input lin
-e 219.
+e 220.
 <Q3_separation_zoomin2.pdf, id=424, pagebox=cropbox, 427.24117pt x 327.20317pt>
 
 File: Q3_separation_zoomin2.pdf Graphic file (type pdf)
 <use Q3_separation_zoomin2.pdf>
-Package pdftex.def Info: Q3_separation_zoomin2.pdf  used on input line 220. on 
-input line 220.
+Package pdftex.def Info: Q3_separation_zoomin2.pdf  used on input line 221. on 
+input line 221.
 Package pdftex.def Info: Requested size: 230.18251pt x 176.28766pt on input lin
-e 220.
+e 221.
  [8
 
  <./Q3_separation.pdf> <./Q3_separation_zoomin1.pdf
@@ -384,7 +384,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q3_separation_zoomin1.pdf)
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q3_separation_zoomin2.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (15.18442pt too wide) in paragraph at lines 229--230
+Overfull \hbox (15.18442pt too wide) in paragraph at lines 230--231
 []\OT1/cmr/m/n/12 In our cal-cu-la-tion, the time of pri-mary tran-sit is 3:54:
 44, 8/30/2017 and 23:00:9, 12/18/2017
  []
@@ -393,34 +393,34 @@ Overfull \hbox (15.18442pt too wide) in paragraph at lines 229--230
 <Q4_gaia_radec.pdf, id=555, pagebox=cropbox, 421.87737pt x 327.53253pt>
 File: Q4_gaia_radec.pdf Graphic file (type pdf)
 <use Q4_gaia_radec.pdf>
-Package pdftex.def Info: Q4_gaia_radec.pdf  used on input line 250. on input li
-ne 250.
+Package pdftex.def Info: Q4_gaia_radec.pdf  used on input line 251. on input li
+ne 251.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.70409pt on input lin
-e 250.
+e 251.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 <Q4_1_ra.pdf, id=556, pagebox=cropbox, 426.23741pt x 327.20317pt>
 File: Q4_1_ra.pdf Graphic file (type pdf)
 <use Q4_1_ra.pdf>
-Package pdftex.def Info: Q4_1_ra.pdf  used on input line 260. on input line 260
+Package pdftex.def Info: Q4_1_ra.pdf  used on input line 261. on input line 261
 .
 Package pdftex.def Info: Requested size: 230.18251pt x 176.69705pt on input lin
-e 260.
+e 261.
 <Q4_1_dec.pdf, id=557, pagebox=cropbox, 434.64381pt x 327.20317pt>
 File: Q4_1_dec.pdf Graphic file (type pdf)
 <use Q4_1_dec.pdf>
-Package pdftex.def Info: Q4_1_dec.pdf  used on input line 261. on input line 26
-1.
+Package pdftex.def Info: Q4_1_dec.pdf  used on input line 262. on input line 26
+2.
 Package pdftex.def Info: Requested size: 230.18251pt x 173.28204pt on input lin
-e 261.
+e 262.
 <Q4_1_radec.pdf, id=558, pagebox=cropbox, 434.64381pt x 327.53253pt>
 File: Q4_1_radec.pdf Graphic file (type pdf)
 <use Q4_1_radec.pdf>
-Package pdftex.def Info: Q4_1_radec.pdf  used on input line 262. on input line 
-262.
+Package pdftex.def Info: Q4_1_radec.pdf  used on input line 263. on input line 
+263.
 Package pdftex.def Info: Requested size: 230.18251pt x 173.45647pt on input lin
-e 262.
+e 263.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -430,24 +430,24 @@ Missing character: There is no ™ in font cmr12!
 <Q4_1_ra_err.pdf, id=559, pagebox=cropbox, 421.87737pt x 327.20317pt>
 File: Q4_1_ra_err.pdf Graphic file (type pdf)
 <use Q4_1_ra_err.pdf>
-Package pdftex.def Info: Q4_1_ra_err.pdf  used on input line 271. on input line
- 271.
+Package pdftex.def Info: Q4_1_ra_err.pdf  used on input line 272. on input line
+ 272.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.52438pt on input lin
-e 271.
+e 272.
 <Q4_1_dec_err.pdf, id=560, pagebox=cropbox, 421.87737pt x 327.20317pt>
 File: Q4_1_dec_err.pdf Graphic file (type pdf)
 <use Q4_1_dec_err.pdf>
-Package pdftex.def Info: Q4_1_dec_err.pdf  used on input line 272. on input lin
-e 272.
+Package pdftex.def Info: Q4_1_dec_err.pdf  used on input line 273. on input lin
+e 273.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.52438pt on input lin
-e 272.
+e 273.
 <Q4_1_radec_err.pdf, id=561, pagebox=cropbox, 421.87737pt x 327.53253pt>
 File: Q4_1_radec_err.pdf Graphic file (type pdf)
 <use Q4_1_radec_err.pdf>
-Package pdftex.def Info: Q4_1_radec_err.pdf  used on input line 273. on input l
-ine 273.
+Package pdftex.def Info: Q4_1_radec_err.pdf  used on input line 274. on input l
+ine 274.
 Package pdftex.def Info: Requested size: 230.18251pt x 178.70409pt on input lin
-e 273.
+e 274.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -476,24 +476,24 @@ nclusion: multiple pdfs with page group included in a single page
 <Q4_2_ra_err.pdf, id=826, pagebox=cropbox, 418.67792pt x 327.20317pt>
 File: Q4_2_ra_err.pdf Graphic file (type pdf)
 <use Q4_2_ra_err.pdf>
-Package pdftex.def Info: Q4_2_ra_err.pdf  used on input line 283. on input line
- 283.
+Package pdftex.def Info: Q4_2_ra_err.pdf  used on input line 284. on input line
+ 284.
 Package pdftex.def Info: Requested size: 230.18251pt x 179.8924pt on input line
- 283.
+ 284.
 <Q4_2_dec_err.pdf, id=827, pagebox=cropbox, 418.67792pt x 327.20317pt>
 File: Q4_2_dec_err.pdf Graphic file (type pdf)
 <use Q4_2_dec_err.pdf>
-Package pdftex.def Info: Q4_2_dec_err.pdf  used on input line 284. on input lin
-e 284.
+Package pdftex.def Info: Q4_2_dec_err.pdf  used on input line 285. on input lin
+e 285.
 Package pdftex.def Info: Requested size: 230.18251pt x 179.8924pt on input line
- 284.
+ 285.
 <Q4_2_radec_err.pdf, id=828, pagebox=cropbox, 418.67792pt x 327.53253pt>
 File: Q4_2_radec_err.pdf Graphic file (type pdf)
 <use Q4_2_radec_err.pdf>
-Package pdftex.def Info: Q4_2_radec_err.pdf  used on input line 285. on input l
-ine 285.
+Package pdftex.def Info: Q4_2_radec_err.pdf  used on input line 286. on input l
+ine 286.
 Package pdftex.def Info: Requested size: 230.18251pt x 180.07347pt on input lin
-e 285.
+e 286.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -503,24 +503,24 @@ Missing character: There is no ™ in font cmr12!
 <Q4_3_ra_err.pdf, id=829, pagebox=cropbox, 416.65474pt x 327.20317pt>
 File: Q4_3_ra_err.pdf Graphic file (type pdf)
 <use Q4_3_ra_err.pdf>
-Package pdftex.def Info: Q4_3_ra_err.pdf  used on input line 296. on input line
- 296.
+Package pdftex.def Info: Q4_3_ra_err.pdf  used on input line 297. on input line
+ 297.
 Package pdftex.def Info: Requested size: 230.18251pt x 180.76611pt on input lin
-e 296.
+e 297.
 <Q4_3_dec_err.pdf, id=830, pagebox=cropbox, 410.27151pt x 327.20317pt>
 File: Q4_3_dec_err.pdf Graphic file (type pdf)
 <use Q4_3_dec_err.pdf>
-Package pdftex.def Info: Q4_3_dec_err.pdf  used on input line 297. on input lin
-e 297.
+Package pdftex.def Info: Q4_3_dec_err.pdf  used on input line 298. on input lin
+e 298.
 Package pdftex.def Info: Requested size: 230.18251pt x 183.57701pt on input lin
-e 297.
+e 298.
 <Q4_3_radec_err.pdf, id=831, pagebox=cropbox, 412.64014pt x 327.53253pt>
 File: Q4_3_radec_err.pdf Graphic file (type pdf)
 <use Q4_3_radec_err.pdf>
-Package pdftex.def Info: Q4_3_radec_err.pdf  used on input line 298. on input l
-ine 298.
+Package pdftex.def Info: Q4_3_radec_err.pdf  used on input line 299. on input l
+ine 299.
 Package pdftex.def Info: Requested size: 230.18251pt x 182.71228pt on input lin
-e 298.
+e 299.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -559,7 +559,7 @@ onts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb>
-Output written on HW1_xuduo.pdf (15 pages, 433934 bytes).
+Output written on HW1_xuduo.pdf (15 pages, 435581 bytes).
 PDF statistics:
  1082 PDF objects out of 1200 (max. 8388607)
  271 compressed objects within 3 object streams
