@@ -1,0 +1,568 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.29)  18 SEP 2017 23:04
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**HW1_xuduo.tex
+(./HW1_xuduo.tex
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./aaspp.sty
+AAS preprint substyle, v3.0 <10 Jan 93>.
+\@cprtype=\count87
+\@slugcmmntwidth=\dimen103
+\c@cureqno=\count88
+\@temptokenb=\toks14
+\pt@box=\box26
+\pt@width=\dimen104
+\pt@line=\count89
+\pt@nlines=\count90
+\pt@ncol=\count91
+(/usr/local/texlive/2017/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen105
+\epsfframethickness=\dimen106
+\epsfrsize=\dimen107
+\epsftmp=\dimen108
+\epsftsize=\dimen109
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+\pspoints=\dimen112
+)
+\lecurrentfam=\count92
+) (./tighten.sty) (./hacks.sty)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks16
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen115
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen116
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count105
+)
+(./HW1_xuduo.aux)
+\openout1 = `HW1_xuduo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count106
+\scratchdimen=\dimen124
+\scratchbox=\box29
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen125
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `bp') on input line 91.
+
+<Q1_Separation.pdf, id=15, pagebox=cropbox, 421.28503pt x 327.20317pt>
+File: Q1_Separation.pdf Graphic file (type pdf)
+<use Q1_Separation.pdf>
+Package pdftex.def Info: Q1_Separation.pdf  used on input line 113. on input li
+ne 113.
+Package pdftex.def Info: Requested size: 230.18251pt x 178.77902pt on input lin
+e 113.
+<Q1_position_angle.pdf, id=16, pagebox=cropbox, 424.46881pt x 327.20317pt>
+File: Q1_position_angle.pdf Graphic file (type pdf)
+<use Q1_position_angle.pdf>
+Package pdftex.def Info: Q1_position_angle.pdf  used on input line 114. on inpu
+t line 114.
+Package pdftex.def Info: Requested size: 230.18251pt x 177.44096pt on input lin
+e 114.
+[2] [3 <./Q1_Separation.pdf> <./Q1_position_angle.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_position_angle.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+<Q1_Separation_m1.pdf, id=88, pagebox=cropbox, 440.43471pt x 327.20317pt>
+File: Q1_Separation_m1.pdf Graphic file (type pdf)
+<use Q1_Separation_m1.pdf>
+Package pdftex.def Info: Q1_Separation_m1.pdf  used on input line 123. on input
+ line 123.
+Package pdftex.def Info: Requested size: 230.18251pt x 171.00537pt on input lin
+e 123.
+<Q1_Separation_m2.pdf, id=89, pagebox=cropbox, 421.28503pt x 327.20317pt>
+File: Q1_Separation_m2.pdf Graphic file (type pdf)
+<use Q1_Separation_m2.pdf>
+Package pdftex.def Info: Q1_Separation_m2.pdf  used on input line 124. on input
+ line 124.
+Package pdftex.def Info: Requested size: 230.18251pt x 178.77902pt on input lin
+e 124.
+<Q1_position_angle_m1.pdf, id=90, pagebox=cropbox, 424.46881pt x 327.20317pt>
+File: Q1_position_angle_m1.pdf Graphic file (type pdf)
+<use Q1_position_angle_m1.pdf>
+Package pdftex.def Info: Q1_position_angle_m1.pdf  used on input line 125. on i
+nput line 125.
+Package pdftex.def Info: Requested size: 230.18251pt x 177.44096pt on input lin
+e 125.
+<Q1_position_angle_m2.pdf, id=91, pagebox=cropbox, 424.46881pt x 327.20317pt>
+File: Q1_position_angle_m2.pdf Graphic file (type pdf)
+<use Q1_position_angle_m2.pdf>
+Package pdftex.def Info: Q1_position_angle_m2.pdf  used on input line 126. on i
+nput line 126.
+Package pdftex.def Info: Requested size: 230.18251pt x 177.44096pt on input lin
+e 126.
+<Q1_rv_star_com.pdf, id=92, pagebox=cropbox, 448.84111pt x 327.20317pt>
+File: Q1_rv_star_com.pdf Graphic file (type pdf)
+<use Q1_rv_star_com.pdf>
+Package pdftex.def Info: Q1_rv_star_com.pdf  used on input line 137. on input l
+ine 137.
+Package pdftex.def Info: Requested size: 230.18251pt x 167.80504pt on input lin
+e 137.
+<Q1_rv_jupiter_com.pdf, id=93, pagebox=cropbox, 429.69144pt x 327.20317pt>
+File: Q1_rv_jupiter_com.pdf Graphic file (type pdf)
+<use Q1_rv_jupiter_com.pdf>
+Package pdftex.def Info: Q1_rv_jupiter_com.pdf  used on input line 138. on inpu
+t line 138.
+Package pdftex.def Info: Requested size: 230.18251pt x 175.27913pt on input lin
+e 138.
+<Q1_angular_momentum.pdf, id=94, pagebox=cropbox, 427.66826pt x 327.20317pt>
+File: Q1_angular_momentum.pdf Graphic file (type pdf)
+<use Q1_angular_momentum.pdf>
+Package pdftex.def Info: Q1_angular_momentum.pdf  used on input line 147. on in
+put line 147.
+Package pdftex.def Info: Requested size: 230.18251pt x 176.11292pt on input lin
+e 147.
+<Q1_energy.pdf, id=95, pagebox=cropbox, 429.69144pt x 327.20317pt>
+File: Q1_energy.pdf Graphic file (type pdf)
+<use Q1_energy.pdf>
+Package pdftex.def Info: Q1_energy.pdf  used on input line 148. on input line 1
+48.
+Package pdftex.def Info: Requested size: 230.18251pt x 175.27913pt on input lin
+e 148.
+ [4 <./Q1_Separation_m1.pdf> <./Q1_Separation_m2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_Separation_m2.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./Q1_position_angle_m1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_position_angle_m1.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <./Q1_position_angle_m2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_position_angle_m2.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>] [5 <./Q1_rv_star_com.pdf> <./Q1_rv_jupiter_com.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_rv_jupiter_com.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+> <./Q1_angular_momentum.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_angular_momentum.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./Q1_energy.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q1_energy.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `bp') on input line 169.
+
+<Q2_rv_star.pdf, id=384, pagebox=cropbox, 421.54802pt x 327.20317pt>
+File: Q2_rv_star.pdf Graphic file (type pdf)
+<use Q2_rv_star.pdf>
+Package pdftex.def Info: Q2_rv_star.pdf  used on input line 188. on input line 
+188.
+Package pdftex.def Info: Requested size: 230.18251pt x 178.66418pt on input lin
+e 188.
+[6
+
+] [7 <./Q2_rv_star.pdf>]
+<Q3_separation.pdf, id=422, pagebox=cropbox, 417.65848pt x 327.20317pt>
+File: Q3_separation.pdf Graphic file (type pdf)
+<use Q3_separation.pdf>
+Package pdftex.def Info: Q3_separation.pdf  used on input line 210. on input li
+ne 210.
+Package pdftex.def Info: Requested size: 230.18251pt x 180.32675pt on input lin
+e 210.
+<Q3_separation_zoomin1.pdf, id=423, pagebox=cropbox, 427.24117pt x 327.20317pt>
+
+File: Q3_separation_zoomin1.pdf Graphic file (type pdf)
+<use Q3_separation_zoomin1.pdf>
+Package pdftex.def Info: Q3_separation_zoomin1.pdf  used on input line 219. on 
+input line 219.
+Package pdftex.def Info: Requested size: 230.18251pt x 176.28766pt on input lin
+e 219.
+<Q3_separation_zoomin2.pdf, id=424, pagebox=cropbox, 427.24117pt x 327.20317pt>
+
+File: Q3_separation_zoomin2.pdf Graphic file (type pdf)
+<use Q3_separation_zoomin2.pdf>
+Package pdftex.def Info: Q3_separation_zoomin2.pdf  used on input line 220. on 
+input line 220.
+Package pdftex.def Info: Requested size: 230.18251pt x 176.28766pt on input lin
+e 220.
+ [8
+
+ <./Q3_separation.pdf> <./Q3_separation_zoomin1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q3_separation_zoomin1.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./Q3_separation_zoomin2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q3_separation_zoomin2.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (15.18442pt too wide) in paragraph at lines 229--230
+[]\OT1/cmr/m/n/12 In our cal-cu-la-tion, the time of pri-mary tran-sit is 3:54:
+44, 8/30/2017 and 23:00:9, 12/18/2017
+ []
+
+[9]
+<Q4_gaia_radec.pdf, id=555, pagebox=cropbox, 421.87737pt x 327.53253pt>
+File: Q4_gaia_radec.pdf Graphic file (type pdf)
+<use Q4_gaia_radec.pdf>
+Package pdftex.def Info: Q4_gaia_radec.pdf  used on input line 250. on input li
+ne 250.
+Package pdftex.def Info: Requested size: 230.18251pt x 178.70409pt on input lin
+e 250.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+<Q4_1_ra.pdf, id=556, pagebox=cropbox, 426.23741pt x 327.20317pt>
+File: Q4_1_ra.pdf Graphic file (type pdf)
+<use Q4_1_ra.pdf>
+Package pdftex.def Info: Q4_1_ra.pdf  used on input line 260. on input line 260
+.
+Package pdftex.def Info: Requested size: 230.18251pt x 176.69705pt on input lin
+e 260.
+<Q4_1_dec.pdf, id=557, pagebox=cropbox, 434.64381pt x 327.20317pt>
+File: Q4_1_dec.pdf Graphic file (type pdf)
+<use Q4_1_dec.pdf>
+Package pdftex.def Info: Q4_1_dec.pdf  used on input line 261. on input line 26
+1.
+Package pdftex.def Info: Requested size: 230.18251pt x 173.28204pt on input lin
+e 261.
+<Q4_1_radec.pdf, id=558, pagebox=cropbox, 434.64381pt x 327.53253pt>
+File: Q4_1_radec.pdf Graphic file (type pdf)
+<use Q4_1_radec.pdf>
+Package pdftex.def Info: Q4_1_radec.pdf  used on input line 262. on input line 
+262.
+Package pdftex.def Info: Requested size: 230.18251pt x 173.45647pt on input lin
+e 262.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+<Q4_1_ra_err.pdf, id=559, pagebox=cropbox, 421.87737pt x 327.20317pt>
+File: Q4_1_ra_err.pdf Graphic file (type pdf)
+<use Q4_1_ra_err.pdf>
+Package pdftex.def Info: Q4_1_ra_err.pdf  used on input line 271. on input line
+ 271.
+Package pdftex.def Info: Requested size: 230.18251pt x 178.52438pt on input lin
+e 271.
+<Q4_1_dec_err.pdf, id=560, pagebox=cropbox, 421.87737pt x 327.20317pt>
+File: Q4_1_dec_err.pdf Graphic file (type pdf)
+<use Q4_1_dec_err.pdf>
+Package pdftex.def Info: Q4_1_dec_err.pdf  used on input line 272. on input lin
+e 272.
+Package pdftex.def Info: Requested size: 230.18251pt x 178.52438pt on input lin
+e 272.
+<Q4_1_radec_err.pdf, id=561, pagebox=cropbox, 421.87737pt x 327.53253pt>
+File: Q4_1_radec_err.pdf Graphic file (type pdf)
+<use Q4_1_radec_err.pdf>
+Package pdftex.def Info: Q4_1_radec_err.pdf  used on input line 273. on input l
+ine 273.
+Package pdftex.def Info: Requested size: 230.18251pt x 178.70409pt on input lin
+e 273.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [10
+
+ <./Q4_gaia_radec.pdf>] [11 <./Q4_1_ra.pdf> <./Q4_1_dec.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q4_1_dec.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./Q4_1_radec.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q4_1_radec.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [12 <./Q4_1_ra_err.pdf> <./Q4_1_dec_err.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q4_1_dec_err.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./Q4_1_radec_err.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q4_1_radec_err.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
+<Q4_2_ra_err.pdf, id=826, pagebox=cropbox, 418.67792pt x 327.20317pt>
+File: Q4_2_ra_err.pdf Graphic file (type pdf)
+<use Q4_2_ra_err.pdf>
+Package pdftex.def Info: Q4_2_ra_err.pdf  used on input line 283. on input line
+ 283.
+Package pdftex.def Info: Requested size: 230.18251pt x 179.8924pt on input line
+ 283.
+<Q4_2_dec_err.pdf, id=827, pagebox=cropbox, 418.67792pt x 327.20317pt>
+File: Q4_2_dec_err.pdf Graphic file (type pdf)
+<use Q4_2_dec_err.pdf>
+Package pdftex.def Info: Q4_2_dec_err.pdf  used on input line 284. on input lin
+e 284.
+Package pdftex.def Info: Requested size: 230.18251pt x 179.8924pt on input line
+ 284.
+<Q4_2_radec_err.pdf, id=828, pagebox=cropbox, 418.67792pt x 327.53253pt>
+File: Q4_2_radec_err.pdf Graphic file (type pdf)
+<use Q4_2_radec_err.pdf>
+Package pdftex.def Info: Q4_2_radec_err.pdf  used on input line 285. on input l
+ine 285.
+Package pdftex.def Info: Requested size: 230.18251pt x 180.07347pt on input lin
+e 285.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+<Q4_3_ra_err.pdf, id=829, pagebox=cropbox, 416.65474pt x 327.20317pt>
+File: Q4_3_ra_err.pdf Graphic file (type pdf)
+<use Q4_3_ra_err.pdf>
+Package pdftex.def Info: Q4_3_ra_err.pdf  used on input line 296. on input line
+ 296.
+Package pdftex.def Info: Requested size: 230.18251pt x 180.76611pt on input lin
+e 296.
+<Q4_3_dec_err.pdf, id=830, pagebox=cropbox, 410.27151pt x 327.20317pt>
+File: Q4_3_dec_err.pdf Graphic file (type pdf)
+<use Q4_3_dec_err.pdf>
+Package pdftex.def Info: Q4_3_dec_err.pdf  used on input line 297. on input lin
+e 297.
+Package pdftex.def Info: Requested size: 230.18251pt x 183.57701pt on input lin
+e 297.
+<Q4_3_radec_err.pdf, id=831, pagebox=cropbox, 412.64014pt x 327.53253pt>
+File: Q4_3_radec_err.pdf Graphic file (type pdf)
+<use Q4_3_radec_err.pdf>
+Package pdftex.def Info: Q4_3_radec_err.pdf  used on input line 298. on input l
+ine 298.
+Package pdftex.def Info: Requested size: 230.18251pt x 182.71228pt on input lin
+e 298.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [13 <./Q4_2_ra_err.pdf> <./Q4_2_dec_err.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q4_2_dec_err.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./Q4_2_radec_err.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q4_2_radec_err.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [14 <./Q4_3_ra_err.pdf> <./Q4_3_dec_err.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q4_3_dec_err.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./Q4_3_radec_err.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Q4_3_radec_err.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [15] (./HW1_xuduo.aux) ) 
+Here is how much of TeX's memory you used:
+ 2861 strings out of 492990
+ 39263 string characters out of 6132636
+ 105643 words of memory out of 5000000
+ 6362 multiletter control sequences out of 15000+600000
+ 8583 words of font info for 31 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,9n,25p,709b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb>
+Output written on HW1_xuduo.pdf (15 pages, 433934 bytes).
+PDF statistics:
+ 1082 PDF objects out of 1200 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+

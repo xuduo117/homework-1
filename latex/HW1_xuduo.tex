@@ -1,0 +1,328 @@
+\documentclass[12pt]{article} 
+\usepackage{aaspp,tighten,hacks,graphicx}
+\usepackage{indentfirst}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[round]{natbib}
+
+
+\def\arcsec{\hbox{$^{\prime\prime}$}}
+\def\arcmin{\hbox{$^{\prime}$}}
+
+
+\begin{document}
+
+\title{Homework 1}
+\author{Duo Xu}
+\affil{Department of Astronomy, The University of Texas at Austin, Austin, TX 78712, USA\\
+Email: xuduo117@utexas.edu}
+
+
+\section{Orbit Predictions}
+\label{Orbit Predictions}
+
+We first consider the two-body motion plane (x, y, z), where the x-axis lies along the major axis of the ellipse in the direction of periapses, the y-axis is perpendicular to the x-axis and lies in the orbital plane, while the z-axis is mutually perpendicular to both the x- and y-axes forming a right-handed triad. And then use the rotational matrix to convert the coordinate to the observational reference plane (X, Y, Z). The observational reference line of sight is along Z axis.
+
+
+In (x, y, z) coordinates, we fix $m_{1}$ as origin $O$, in O-xyz coordinate system. The position can be written as 
+
+\[  \vec{r} = \left ( \begin{array}{c}
+ r\, \cos f  \\
+ r\, \sin f \\
+0\end{array} \right )\ \]
+
+After doing the derivative of position vector, the velocity can be written as 
+
+\[  \vec{v} = \left ( \begin{array}{c}
+ -\sqrt{\frac{G(m_{1}+m_{2})}{a(1-e^{2})}}\sin f  \\
+\sqrt{\frac{G(m_{1}+m_{2})}{a(1-e^{2})}} (e+\cos f) \\
+0\end{array} \right )\ \]
+
+Then we multiply the rotational matrix to convert the coordinate from O-xyz to O-XYZ:  (i) a rotation about the z-axis through an angle $\omega$ so that the x-axis coincides with the line of nodes, (ii) a rotation about the x-axis through an angle $I$ so that the two planes are coincident and finally (iii) a rotation about the z-axis through an angle $\Omega$. I believe the sign of each angle should be negative since they are all rotate in a clockwise direction, which contradicts the equations in \citet{2010exop.book...15M}. 
+
+\begin{align} 
+\vec{r}_{XYZ}=R_{z}(-\Omega)R_{x}(-I)R_{z}(-\omega)\vec{r}_{xyz} \\
+\vec{v}_{XYZ}=R_{z}(-\Omega)R_{x}(-I)R_{z}(-\omega)\vec{v}_{xyz}
+\end{align}
+
+After algebra, we have 
+
+\[ R_{z}(-\Omega)R_{x}(-I)R_{z}(-\omega) =      \]
+\[ \left ( \begin{array}{ccc}
+ \cos \Omega \cos \omega -\sin \Omega \sin \omega \cos I & -\cos \Omega \sin \omega- \sin \Omega \cos \omega \cos I & \sin \Omega \sin I   \\
+ \sin \Omega \cos \omega +\cos \Omega \sin \omega \cos I& -\sin \Omega \sin \omega+\cos \Omega \cos\omega\cos I& -\cos\Omega\sin I \\
+\sin \omega \sin I& \cos \omega \sin I& \cos I \end{array} \right )\ \]
+
+We define 
+
+\[ {\bf P}=   \left ( \begin{array}{ccc}
+ \cos \Omega \cos \omega -\sin \Omega \sin \omega \cos I  \\
+ \sin \Omega \cos \omega +\cos \Omega \sin \omega \cos I \\
+\sin \omega \sin I  \end{array} \right )\ \]
+
+\[ {\bf Q}=   \left ( \begin{array}{ccc}
+ -\cos \Omega \sin \omega- \sin \Omega \cos \omega \cos I \\
+ -\sin \Omega \sin \omega+\cos \Omega \cos\omega\cos I \\
+\cos \omega \sin I  \end{array} \right )\ \]
+
+Combine the relation between true anomaly and eccentric anomaly
+\begin{align} 
+r\cos f&=a(\cos E-e)\\
+r\sin f&= b\sin E=a\sqrt(1-e^{2})\sin E\\
+\dot{E}&=\frac{n}{1-e\cos E}\\
+\end{align}
+
+We can get the position and velocity vector
+\begin{align} 
+\vec{r}_{XYZ}&=a(\cos E -e) {\bf P}+a\sqrt{1-e^{2}}\sin E\,  {\bf Q} \\
+\vec{v}_{XYZ}&=-\frac{a^{2}n}{r}\sin E\,  {\bf P}+\frac{a^{2}n}{r}\sqrt{1-e^{2}}\cos E\,  {\bf Q}
+\end{align}
+where $n=\frac{2\pi}{T}=\sqrt{\frac{G(m_{1}+m_{2})}{a^{3}}}$.
+
+
+Furthermore, we can convert eccentric anomaly E to mean anomaly M, which is linear in time, by
+\begin{align} 
+M=E-e\sin E=n(t-t_{0})
+\end{align}
+
+We take the Jupiter-Sun as an example. Taking the time, the orbital elements, and both object masses as input, as listed in Table~\ref{q1_table1}, we can get the observable parameters. Figure~\ref{fig.q1_a} shows the change of on-sky projected separation and position angle of B with respect to A with time.
+
+\begin{table}[]
+\begin{center}
+\caption{Orbital elements of Jupiter   \label{q1_table1}}
+\begin{tabular}{|c|c|}
+\hline
+Semimajor axis (AU)       &           5.20336301  \\ \hline
+Orbital eccentricity           &      0.04839266   \\ \hline
+Orbital inclination (deg)    &        1.30530  \\ \hline
+Longitude of ascending node (deg) & 100.55615   \\ \hline
+Longitude of perihelion (deg)    &   14.75385   \\
+ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+
+
+
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q1_Separation}.pdf}
+\includegraphics[width=.49\linewidth]{{Q1_position_angle}.pdf}
+\caption{The change of on-sky projected separation and position angle of B with respect to A with time.}
+\label{fig.q1_a}
+\end{figure}
+
+Figure~\ref{fig.q1_b} shows the change of on-sky projected separation and position angle of both objects with respect to the center-of-mass position with time.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q1_Separation_m1}.pdf}
+\includegraphics[width=.49\linewidth]{{Q1_Separation_m2}.pdf}
+\includegraphics[width=.49\linewidth]{{Q1_position_angle_m1}.pdf}
+\includegraphics[width=.49\linewidth]{{Q1_position_angle_m2}.pdf}
+\caption{The change of on-sky projected separation and position angle of both objects with respect to the center-of-mass position with time.}
+\label{fig.q1_b}
+\end{figure}
+
+
+Figure~\ref{fig.q1_c} shows the change of RVs of both objects with respect to the center-of-mass with time.
+
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q1_rv_star_com}.pdf}
+\includegraphics[width=.49\linewidth]{{Q1_rv_jupiter_com}.pdf}
+\caption{The change of RVs of both objects with respect to the center-of-mass with time.}
+\label{fig.q1_c}
+\end{figure}
+
+Figure~\ref{fig.q1_d} shows the change of angular momentum and total energy of the system with time, which indicates the conservation of angular momentum and total energy.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q1_angular_momentum}.pdf}
+\includegraphics[width=.49\linewidth]{{Q1_energy}.pdf}
+\caption{The change of angular momentum and total energy of the system with time.}
+\label{fig.q1_d}
+\end{figure}
+
+
+\clearpage
+
+
+\section{Extreme Planetary Orbits}
+
+Table~\ref{q2_table1} lists the orbital elements and the mass of planet HD 80606 b, which are adopted from \citet{2001A&A...375L..27N}, \citet{2009A&A...498L...5M}, \citet{2014AAS...22341102W} and the website http://exoplanet.eu/catalog/hd\_80606\_b. Following the method we discussed in Section~\ref{Orbit Predictions}, we can get the stellar RV versus time spanning August-December.
+
+Here is a tiny problem with the period of planet HD 80606 b. From the orbital elements, we can calculate the period of planet HD 80606 b is 110.80 days. But the observational work shows that the period is 111.43637 days. Although the difference is only 0.5 days, when we accumulate the time, the difference with become large. I believe the observational period is more accurate, since it can be directly measured. The orbital elements are calculated based on these observational quantities. 
+
+The time of perihelion passage is 2454424.857 JD, which is 08:34:4, 11/20/2007. We add 31 times the period of planet HD 80606 b 111.43637 days to get the closest date to August 2017, which is 21:13:38, 5/5/2017. This time is also the time of perihelion passage. All time is in UTC.
+
+
+Figure~\ref{fig.q2_a} shows the change of RVs of star with respect to the center-of-mass with time.
+
+
+\begin{table}[]
+\begin{center}
+\caption{Orbital elements of Jupiter   \label{q2_table1}}
+\begin{tabular}{|c|c|}
+\hline
+Semimajor axis (AU)       &           0.449  \\ \hline
+Orbital eccentricity           &      0.93366   \\ \hline
+Orbital inclination (deg)    &        89.26  \\ \hline
+Longitude of ascending node (deg) & 160.98   \\ \hline
+Longitude of perihelion (deg)    &   300.651   \\ \hline
+Time of perihelion passage (JD) &	2454424.857\\
+ \hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q2_rv_star}.pdf}
+\caption{The change of RVs of star with respect to the center-of-mass with time.}
+\label{fig.q2_a}
+\end{figure}
+
+
+The extreme maximum RVs occur at 22:58:56, 8/24/2017 and 17:54:38, 12/13/2017 in UTC. If convert to CST, which is UTC-6 hours (DST is UTC-5 hours), the extreme maximum RVs occur at 17:58:56, 8/24/2017 and 11:54:38, 12/13/2017 in CST.
+
+The extreme minimum RVs occur at 6:29:7, 8/23/2017 and 1:46:42, 12/12/2017 in UTC. If convert to CST (considering the DST), the extreme minimum RVs occur at 1:29:7, 8/23/2017 and 19:46:42, 12/11/2017 in CST.
+
+
+\clearpage
+
+
+\section{Extreme Transits}
+
+When the planet HD 80606 b is in front of star and the on-sky projected separation of planet with respect to the star is smaller than the radius of the star, the transit will happen. 
+
+Figure~\ref{fig.q3_a} shows the change of the on-sky projected separation of planet with respect to the star with time, and the date when will transit happen is also labeled .
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q3_separation}.pdf}
+\caption{The change of the on-sky projected separation of planet with respect to the star with time. The orange star symbol labels the date when will transit happen.}
+\label{fig.q3_a}
+\end{figure}
+
+We zoom in the transit date as shown in Figure~\ref{fig.q3_b}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q3_separation_zoomin1}.pdf}
+\includegraphics[width=.49\linewidth]{{Q3_separation_zoomin2}.pdf}
+\caption{The change of the on-sky projected separation of planet with respect to the star with time.}
+\label{fig.q3_b}
+\end{figure}
+
+
+
+\citet{2009MNRAS.396L..16F} gave the time of primary transit of 2454876.344 JD, which is 20:15:21, 2/13/2009 in UTC. When adding the an integer multiple of the period, the time is 1:29:47, 8/31/2017 and 11:58:10, 12/20/2017 in UTC. These date is almost the same as my calculation, since there is an uncertainty of the orbital elements, which leads to the slight difference (roughly one day) of the primary transit time. 
+
+In our calculation, the time of primary transit is 3:54:44, 8/30/2017 and 23:00:9, 12/18/2017 in UTC. When convert to CST (considering the DST), the time of primary transit is 22:54:44, 8/29/2017 and 17:00:9, 12/18/2017 in CST.
+
+After checking the sunrise-sunset-moon-calendar of mcdonald observatory, we find that on 8/29/2017, Sunset: 8:23pm, Twi: 8:48pm, Twi N: 9:17pm, Twi A: 9:47pm, and on 8/30/2017, Twi A: 6:08am, Twi N: 6:38am, Twi: 7:07am, Sunrise: 7:31am. The transit starts from 22:54:44, 8/29/2017 and ends on 8:12:53, 8/30/2017. So we can observe the start of transit but cannot observe the end part, since the Twi A is 6:08am while the transit ends on 8:12:53. We can observe 77\% of the transit.
+
+On 12/18/2017, Sunset: 5:57pm, Twi: 6:24pm, Twi N: 6:54pm, Twi A: 7:24pm, and on 12/19/2017, Twi A: 6:22am, Twi N: 6:51am, Twi: 7:22am, Sunrise: 7:48am. The transit starts from 17:00:9, 12/18/2017 and ends on 2:20:29, 12/19/2017. So we can observe the end of transit but cannot observe the start part, since the Twi A is 7:24pm, while the transit starts on 17:00:9. We can observe 74\% of the transit.
+
+
+
+
+\clearpage
+
+
+\section{Extreme Astrometry}
+
+HD 80606 is a G5 type star, with a magnitude of 9.0 in V band. \citet{2015A&A...574A.115M} list an table of uncertainties of the astrometric parameters when processing 0.5 yr of simulated Gaia data without incorporation of the parallax prior from HIPPARCOS. For a typical 9.0 magnitude star, the uncertainty is 147 $\mu$as in position, 244 $\mu$as in parallax, 40 $\mu$as yr$^{-1}$ in proper motion. When combining Gaia data with Tycho and HIPPARCOS priors, the uncertainty for a typical 9.0 magnitude star is 133 $\mu$as in position, 217 $\mu$as in parallax, 39 $\mu$as yr$^{-1}$ in proper motion. 
+
+HD 80606 is located at RA: 09$^{h}$ 22$^{m}$ 37$^{s}$.5769, Dec:	+50$^{\circ}$ 36$^{\prime}$ 13$^{\prime\prime}$.430. If we do not consider any influence of the planet or the parallax motion or the proper motion, we only consider the uncertainty of instrument of Gaia, we can simulate the measurements around the true value with a Gaussian distribution error, as shown in Figure~\ref{fig.q4_a}.
+
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q4_gaia_radec}.pdf}
+\caption{The uncertainty of instrument of Gaia.}
+\label{fig.q4_a}
+\end{figure}
+ 
+ 
+1. We only consider the planet’s influence on the star. The distance of HD 80606 is 58 pc. The observational reference line of sight is along Z axis. The X axis is pointing to north, which is the Dec direction. The Y axis is the RA direction. We calculate the on-sky projected separation of the star with respect to the center-of-mass position at 100 random time over 5 years (from 2017-01-01T00:00:00 to 2022-01-01T00:00:00). And divided by the distance, we can get the coordinate change on the celestial sphere, as shown in Figure~\ref{fig.q4_b}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q4_1_ra}.pdf}
+\includegraphics[width=.49\linewidth]{{Q4_1_dec}.pdf}
+\includegraphics[width=.49\linewidth]{{Q4_1_radec}.pdf}
+\caption{Only consider the planet’s influence on the star not considering the uncertainty of instrument of Gaia.}
+\label{fig.q4_b}
+\end{figure}
+
+If we consider the Gaia measurement uncertainty, the RA, Dec changing with time is shown in Figure~\ref{fig.q4_berr}. The uncertainty of instrument of Gaia is much larger than the planet’s influence on the star. The star's motion due to the planet is embedded in the uncertainty of instrument of Gaia.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q4_1_ra_err}.pdf}
+\includegraphics[width=.49\linewidth]{{Q4_1_dec_err}.pdf}
+\includegraphics[width=.49\linewidth]{{Q4_1_radec_err}.pdf}
+\caption{Consider the planet’s influence on the star and the uncertainty of instrument of Gaia.}
+\label{fig.q4_berr}
+\end{figure}
+
+
+2. We now consider the planet’s influence on the star plus the parallax motion. The star's coordinate is RA: 09$^{h}$ 22$^{m}$ 37$^{s}$.5769, Dec: +50$^{\circ}$ 36$^{\prime}$ 13$^{\prime\prime}$.430, which means at the 23:15, 8/10/2017 the star, the earth and the sun are in the same plane. The parallax of the star is 17.13 mas. As the earth orbits around the sun annually , the star's coordinates shifts due to the different position of earth. At 23:15, 8/10/2017, the offset is on Dec direction and it is negative. Three month later, the offset in on RA direction and it is positive. We can get the  coordinate change on the celestial sphere, as shown in Figure~\ref{fig.q4_c}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q4_2_ra_err}.pdf}
+\includegraphics[width=.49\linewidth]{{Q4_2_dec_err}.pdf}
+\includegraphics[width=.49\linewidth]{{Q4_2_radec_err}.pdf}
+\caption{Consider the planet’s influence on the star, plus the parallax motion, and the uncertainty of instrument of Gaia.}
+\label{fig.q4_c}
+\end{figure}
+
+
+
+3. We now consider the planet’s influence on the star plus the parallax motion, and the proper motion. From \citet{2007A&A...474..653V}, we know the proper motion of the star is PMRA: 45.76 mas yr$^{-1}$,	PMDec: 16.56 mas yr$^{-1}$. We can get the coordinate change on the celestial sphere, as shown in Figure~\ref{fig.q4_d}.
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=.49\linewidth]{{Q4_3_ra_err}.pdf}
+\includegraphics[width=.49\linewidth]{{Q4_3_dec_err}.pdf}
+\includegraphics[width=.49\linewidth]{{Q4_3_radec_err}.pdf}
+\caption{Consider the planet’s influence on the star, plus the parallax motion, plus the proper motion, and the uncertainty of instrument of Gaia.}
+\label{fig.q4_d}
+\end{figure}
+
+
+
+ 
+ 
+
+\begin{thebibliography}{}
+
+\bibitem[Fossey et al.(2009)]{2009MNRAS.396L..16F} Fossey, S.~J., Waldmann, I.~P., \& Kipping, D.~M.\ 2009, \mnras, 396, L16 
+
+\bibitem[Michalik et al.(2015)]{2015A&A...574A.115M} Michalik, D., Lindegren, L., \& Hobbs, D.\ 2015, \aap, 574, A115 
+
+\bibitem[Moutou et al.(2009)]{2009A&A...498L...5M} Moutou, C., H{\'e}brard, G., Bouchy, F., et al.\ 2009, \aap, 498, L5 
+
+\bibitem[Murray \& Correia(2010)]{2010exop.book...15M} Murray, C.~D., \& Correia, A.~C.~M.\ 2010, Exoplanets, 15 
+
+\bibitem[Naef et al.(2001)]{2001A&A...375L..27N} Naef, D., Latham, D.~W., Mayor, M., et al.\ 2001, \aap, 375, L27 
+
+\bibitem[van Leeuwen(2007)]{2007A&A...474..653V} van Leeuwen, F.\ 2007, \aap, 474, 653 
+
+\bibitem[Wiktorowicz \& Laughlin(2014)]{2014AAS...22341102W} Wiktorowicz, S., \& Laughlin, G.~P.\ 2014, American Astronomical Society Meeting Abstracts \#223, 223, 411.02 
+
+
+\end{thebibliography}
+
+
+\end{document}
